@@ -7,14 +7,18 @@ export default function Home() {
           <h2 className="text-md">Survey and Social Media</h2>
         </div>
         <div className="flex flex-col gap-3 rounded-md w-full">
-          <button className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdC4kuE76LYv3G_Y-FFNqot8DFs1_EYELg_Q-4ohcpMA2jwYw/viewform?pli=1"
+            target="_blank"
+            className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 text-center"
+          >
             Feedback Survey for $5 off
-          </button>
+          </a>
         </div>
         <div className="flex gap-6 w-5 justify-center">
           <div className="rounded-full flex items-center justify-center ">
             <a
-              className="dark:bg-black bg-white fill-[#E4405F]"
+              className="dark:bg-black bg-white fill-[#E1306C]"
               href="https://www.instagram.com/konditoreicafe/"
               target="_blank"
             >
@@ -31,8 +35,8 @@ export default function Home() {
           </div>
           <div className="rounded-full flex items-center justify-center ">
             <a
-              className="dark:bg-black bg-white fill-[#4285F4]"
-              href="www.google.com"
+              className="dark:bg-black bg-white fill-[#0F9D58]"
+              href="https://www.google.com/search?q=konditorei&sxsrf=AB5stBi37XuVbIsxbhKykpPp7pDUYKwifw%3A1689731095255&ei=F0C3ZLiSD-7PkPIPnPqQ-Aw&gs_ssp=eJzj4tZP1zcsSTHKMDGxMGC0UjWosDCwSEs0NTGwTDU0TDFJNrcyqDBNszQySk20NEk1SjVPM7Xw4srOz0vJLMkvSs0EACrhEmc&oq=kondit&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmtvbmRpdCoCCAAyDRAuGK8BGMcBGIoFGCcyBBAjGCcyBxAjGIoFGCcyBRAAGIAEMhAQLhiABBgUGIcCGMcBGK8BMgUQABiABDIIEAAYgAQYsQMyCxAuGIAEGMcBGK8BMgUQABiABDIFEAAYgAQyGhAuGK8BGMcBGIoFGJcFGNwEGN4EGOAE2AEBSPsRUOoEWOgJcAN4AZABAJgBlgGgAecFqgEDMS41uAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICChAAGIoFGLADGEPCAg0QLhiKBRjHARivARgnwgIREC4YgwEYxwEYsQMY0QMYgATCAggQLhiABBixA8ICERAuGIAEGLEDGIMBGMcBGNEDwgITEC4YigUYsQMYgwEYxwEY0QMYCsICERAuGIoFGLEDGIMBGMcBGNEDwgIaEC4YigUYxwEYrwEYlwUY3AQY3gQY4ATYAQHCAgcQABiKBRhDwgIHEC4YigUYQ8ICCBAAGIoFGJECwgINEC4YigUYxwEYrwEYQ8ICChAAGIAEGBQYhwLCAggQLhixAxiABMICBRAuGIAEwgIREC4YgwEYrwEYxwEYsQMYgATiAwQYACBBiAYBkAYKugYGCAEQARgU&sclient=gws-wiz-serp&bshm=lbse/1"
               target="_blank"
             >
               <svg
@@ -49,7 +53,7 @@ export default function Home() {
           <div className="rounded-full flex items-center justify-center ">
             <a
               className="dark:bg-black bg-white fill-[#4285F4]"
-              href="www.google.com"
+              href="https://m.facebook.com/people/Konditorei/100075651529329/"
               target="_blank"
             >
               <svg
@@ -65,8 +69,8 @@ export default function Home() {
           </div>
           <div className="rounded-full flex items-center justify-center ">
             <a
-              className="dark:bg-black bg-white fill-[#4285F4]"
-              href="www.google.com"
+              className="dark:bg-black bg-white fill-[#D32323]"
+              href="https://www.yelp.com/biz/konditorei-portola-valley"
               target="_blank"
             >
               <svg
