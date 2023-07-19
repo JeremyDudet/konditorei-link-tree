@@ -1,16 +1,17 @@
 export default function Home() {
+  const iconSize = "w-8 h-8";
   return (
     <main className="flex w-screen justify-center items-center">
       <div className="flex flex-col items-center mx-auto gap-8 w-fit max-w-4xl mt-20">
         <div className="flex flex-col gap-1 items-center">
-          <h1 className="text-2xl">Konditore Cafe Links</h1>
-          <h2 className="text-md">Survey and Social Media</h2>
+          <h1 className="text-3xl">Konditore Cafe Links</h1>
+          <h2 className="text-lg">Survey and Social Media</h2>
         </div>
         <div className="flex flex-col gap-3 rounded-md w-full">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdC4kuE76LYv3G_Y-FFNqot8DFs1_EYELg_Q-4ohcpMA2jwYw/viewform?pli=1"
             target="_blank"
-            className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 text-center"
+            className="rounded-md bg-white px-3.5 py-2.5 text-lg font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 text-center"
           >
             Feedback Survey for $5 off
           </a>
@@ -23,7 +24,7 @@ export default function Home() {
               target="_blank"
             >
               <svg
-                className="w-6 h-6"
+                className={`${iconSize}`}
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +41,7 @@ export default function Home() {
               target="_blank"
             >
               <svg
-                className="w-6 h-6"
+                className={`${iconSize}`}
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +58,7 @@ export default function Home() {
               target="_blank"
             >
               <svg
-                className="w-6 h-6"
+                className={`${iconSize}`}
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +75,7 @@ export default function Home() {
               target="_blank"
             >
               <svg
-                className="w-6 h-6"
+                className={`${iconSize}`}
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
